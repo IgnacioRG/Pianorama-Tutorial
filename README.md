@@ -26,17 +26,17 @@ Los primeros niveles cuentan además, con apoyos visuales extra para facilitar l
 ## Estructura del juego
 El juego consiste de 11 niveles, en cada uno se modifican parámetros que aumentan la dificultad en los niveles más grandes.
 
-1. Tamaño de secuencia: 2, Re:Reproduccion: 1
-2. Tamaño de secuencia: 3, Re:Reproduccion: 1
-3. Tamaño de secuencia: 3, Re:Reproduccion: 1
-4. Tamaño de secuencia: 4, Re:Reproduccion: 1
-5. Tamaño de secuencia: 4, Re:Reproduccion: 1
-6. Tamaño de secuencia: 6, Re:Reproduccion: 2
-7. Tamaño de secuencia: 7, Re:Reproduccion: 2
-8. Tamaño de secuencia: 8, Re:Reproduccion: 2
-9. Tamaño de secuencia: 9, Re:Reproduccion: 2
-10. Tamaño de secuencia: 10, Re:Reproduccion: 2
-11. Tamaño de secuencia: 11, Re:Reproduccion: 2
+1. Tamaño de secuencia: 2, Re:Reproduccion: 1, una octava
+2. Tamaño de secuencia: 3, Re:Reproduccion: 1, una octava
+3. Tamaño de secuencia: 3, Re:Reproduccion: 1, una octava
+4. Tamaño de secuencia: 4, Re:Reproduccion: 1, una octava
+5. Tamaño de secuencia: 4, Re:Reproduccion: 1, una octava
+6. Tamaño de secuencia: 6, Re:Reproduccion: 2, dos octavas 
+7. Tamaño de secuencia: 7, Re:Reproduccion: 2, dos octavas
+8. Tamaño de secuencia: 8, Re:Reproduccion: 2, dos octavas
+9. Tamaño de secuencia: 9, Re:Reproduccion: 2, dos octavas
+10. Tamaño de secuencia: 10, Re:Reproduccion: 2, dos octavas
+11. Tamaño de secuencia: 11, Re:Reproduccion: 2, dos octavas
 
 ## Tutorial
 El tutorial explica la mecánica principal del juego. Ya que el juego utiliza una simulación muy cercana a un piano real, también se cuenta como punto importante explicar la interfaz y la interacción que puede tener el jugador.
@@ -45,3 +45,6 @@ El tutorial explica la mecánica principal del juego. Ya que el juego utiliza un
 
 ### 04-12-23
 Se analizó la estructura general y scripts del juego, también se preservó la versión legado de los assets utilizados y se probó la ejecución completa del juego.
+
+### 05-12-23
+Se crearon algunos assets estéticos para el tutorial. Se diseñó la primera versión del flujo del tutorial y se creó una nueva escena, se distribuyeron los elementos estéticos.
