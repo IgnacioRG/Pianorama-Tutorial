@@ -13870,7 +13870,7 @@ MonoBehaviour:
   _menuPausa: {fileID: 1989867091}
   _panelPrimerOctava: {fileID: 1991459549}
   _panelPianoCompleto: {fileID: 313322448}
-  elegirNivel: 1
+  elegirNivel: 11
   _NeurocoinsRecibidasAlGanar: 5
   _NeurocoinsRecibidasAlSubirDeNivel: 20
   mascota: {fileID: 1908537032}
