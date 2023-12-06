@@ -48,3 +48,6 @@ Se analizó la estructura general y scripts del juego, también se preservó la 
 
 ### 05-12-23
 Se crearon algunos assets estéticos para el tutorial. Se diseñó la primera versión del flujo del tutorial y se creó una nueva escena, se distribuyeron los elementos estéticos.
+
+### 06-12-23
+Se crearon los assets explicativos para el tutorial, también se distribuyeron algunos elementos estéticos del tutorial y se editaron algunos elementos. Se creó el script y algunos parámetros para la ejecución del tutorial.
