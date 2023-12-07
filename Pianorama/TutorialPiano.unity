@@ -260,7 +260,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f3c9d8df5e3ceb04c8c51ff60e20cd54, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 868268fae3ec82f4189f5d7655c1e836, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -402,7 +402,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.68612236, g: 0.4575472, b: 1, a: 1}
+  m_Color: {r: 0.6581899, g: 0.41037738, b: 1, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -457,7 +457,7 @@ RectTransform:
   m_Children:
   - {fileID: 854378847}
   m_Father: {fileID: 1374266920}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -510,6 +510,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1165715236}
+  - component: {fileID: 1165715237}
   m_Layer: 0
   m_Name: '@GameMaster'
   m_TagString: Untagged
@@ -531,6 +532,46 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1165715237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165715235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 234d0d93a9746eb4fa62555af4b7e4be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paso_ui: {fileID: 242610388}
+  exp_ui: {fileID: 1419401206}
+  sig_boton: {fileID: 1758805274}
+  mecanica1_sp:
+  - {fileID: 21300000, guid: b17f4ed4ac4b76c47a19fabd6abaa97d, type: 3}
+  - {fileID: 21300000, guid: 9f167a4594b48e8478dff76056fd82b3, type: 3}
+  - {fileID: 21300000, guid: b0f8824b43063ec46b94e9abb64f3d7f, type: 3}
+  mecanica2_sp:
+  - {fileID: 21300000, guid: 58ad802a5e6fbf9438e5da9faa0ca4dc, type: 3}
+  - {fileID: 21300000, guid: a200b9f1806a65f4fb96eebafe65815a, type: 3}
+  - {fileID: 21300000, guid: 332b89cc333e7e041a960bde179c7626, type: 3}
+  - {fileID: 21300000, guid: b5f004e48e944ef448bc6763dec049a8, type: 3}
+  - {fileID: 21300000, guid: 7ba167384cdc2ce4889ccdb32d579621, type: 3}
+  ayuda1_sp: {fileID: 21300000, guid: f3c9d8df5e3ceb04c8c51ff60e20cd54, type: 3}
+  ayuda2_sp:
+  - {fileID: 21300000, guid: 78fd570a4267e8145a9748e8a7d4b3cc, type: 3}
+  - {fileID: 21300000, guid: 13b708911ab1df44299b754f77554891, type: 3}
+  - {fileID: 21300000, guid: dcff6b61d461d2744b6ec76243b6332f, type: 3}
+  - {fileID: 21300000, guid: 49bdbbbc0e0595349b46c1a93fb87c02, type: 3}
+  victoria_sp:
+  - {fileID: 21300000, guid: 1fcd936b0d8fbf54a93fb03dd4f47f5e, type: 3}
+  - {fileID: 21300000, guid: 2e7e3ff70028e8946bef2253680eca4a, type: 3}
+  - {fileID: 21300000, guid: f93d0014df003c14faf78e20a8f1f35a, type: 3}
+  - {fileID: 21300000, guid: 9f9b8827be1fcde478918457e3fd7dc3, type: 3}
+  derrota_sp:
+  - {fileID: 21300000, guid: 44915cf20506b50488b8ae46713d5a3d, type: 3}
+  - {fileID: 21300000, guid: df4704558228ea841b794e93fcdd649a, type: 3}
+  - {fileID: 21300000, guid: a0015240de3a50c46aaf7eda85dbb86b, type: 3}
 --- !u!1 &1281424786
 GameObject:
   m_ObjectHideFlags: 0
@@ -699,8 +740,8 @@ RectTransform:
   - {fileID: 664115724}
   - {fileID: 1881507179}
   - {fileID: 242610389}
-  - {fileID: 1003610761}
   - {fileID: 1419401207}
+  - {fileID: 1003610761}
   - {fileID: 1758805275}
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -806,11 +847,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1374266920}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -152.99998}
+  m_AnchoredPosition: {x: 0, y: -154}
   m_SizeDelta: {x: 600, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1419401208
