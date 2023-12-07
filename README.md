@@ -51,3 +51,6 @@ Se crearon algunos assets estéticos para el tutorial. Se diseñó la primera ve
 
 ### 06-12-23
 Se crearon los assets explicativos para el tutorial, también se distribuyeron algunos elementos estéticos del tutorial y se editaron algunos elementos. Se creó el script y algunos parámetros para la ejecución del tutorial.
+
+### 07-12-23
+Se volvieron a hacer unos assets explicativos del tutorial. Se termino de crear el script tutorial. Pruebas realizadas. Tutorial terminado.
